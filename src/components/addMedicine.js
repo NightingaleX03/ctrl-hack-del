@@ -3,15 +3,10 @@
 import React, { useState } from 'react';
 import './addMedicine.css';
 
-
-
-function addMedicine() {
+const AddMedicine = () => {
     const [medicine, setMedicine] = useState('');
-    const [frequency, setFrequency] = useState('');
-    const [dosage, setDosage] = useState('');
-
-    
-    
+    // const [frequency, setFrequency] = useState('');
+    // const [dosage, setDosage] = useState('');
     
     return (
         <form className="create">
@@ -24,15 +19,13 @@ function addMedicine() {
                 value={medicine}
             />
 
-            <label>Frequency</label>
-            <input 
-            
-            />
-
 
 
 
 
         </form>
     )
+
 }
+
+export default AddMedicine;
