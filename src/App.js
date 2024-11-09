@@ -1,11 +1,11 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar'; // Assuming this is your Navbar component
-import Profile from './pages/profile';  // Page components
+import Navbar from './components/Navbar';
+import Profile from './pages/profile';
 import Home from './pages/Home';
 import About from './pages/about';
-import './App.css'; // Include your styles if needed
+import './App.css'; 
 
 const App = () => {
   return (
