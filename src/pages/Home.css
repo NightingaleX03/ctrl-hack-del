@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 9rem;
+}
+
+
+
+
+.main .content{
+    font-size: large;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.cursor{
+    background-color: #fff;
+    width: 5px;
+    height: 20px;
+}
+
+
+.typed{
+    color: yellow;
+}
